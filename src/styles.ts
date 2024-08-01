@@ -11,6 +11,9 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         padding-block: 3rem;
+        background-color: ${props => props.theme.clrBg};
+        transition: background-color 400ms ease;
+
     }
 `;
 

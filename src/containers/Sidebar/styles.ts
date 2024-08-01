@@ -16,10 +16,10 @@ export const ThemeButton = styled.button`
     width: 100%;
     border-radius: 1rem;
     padding: .5rem;
-    color: white;
+    color: ${props => props.theme.clrBg};
     font-size: 12px;
     font-weight: bold;
-    background-color: #282a35;
+    background-color: ${props => props.theme.textPrimary};
     border: none;
     margin-block-start: 1rem;
     cursor: pointer;
