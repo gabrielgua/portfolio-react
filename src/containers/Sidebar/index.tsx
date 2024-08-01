@@ -1,9 +1,17 @@
+import Avatar from "../../components/Avatar";
+import Paragraph from "../../components/Paragraph";
 import Title from "../../components/Title";
+import { Description, SidebarWrapper, ThemeButton } from "./styles";
 
 const Sidebar = () => ( 
     <aside>
-        <img src="https://github.com/gabrielgua.png" alt="profile"/>
-        <Title fs={20}>gabrielgua</Title>
+        <SidebarWrapper>
+            <Avatar />
+            <Title fs={20} mb=".25rem">Gabriel Guaitanele</Title>
+            <Description type="secondary" >@gabrielgua</Description>
+            <Paragraph>Desenvolvedor FullStack</Paragraph>
+            <ThemeButton>Trocar tema</ThemeButton>
+        </SidebarWrapper>
     </aside>
 
 )

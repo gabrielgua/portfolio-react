@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        padding-block-start: 3rem;
+        padding-block: 3rem;
     }
 `;
 
